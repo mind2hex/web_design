@@ -1,2 +1,2 @@
-# CrediFacil_Web
-Página web de prueba
+# web_design
+A repository to learn web design
