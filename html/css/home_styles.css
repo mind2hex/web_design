@@ -1,0 +1,57 @@
+body{
+  background-image: url("../images/background.jpg");
+  color: white;
+}
+
+h1{
+  font-family: arial;
+}
+
+p{
+  font-family: arial;
+  font-size: 20px;
+  text-align: center;
+}
+
+.header_class{
+  align-content: center;
+  text-align: center;
+}
+
+.top_var{
+  overflow: hidden;
+  background-color: #458587;
+}
+
+.top_var a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.top_var a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.top_var a.active {
+  background-color: #2196f3;
+  color: white;
+}
+
+.top_var form{
+  float: right;
+  text-align: center;
+}
+
+.top_var input[type=text], button{
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
