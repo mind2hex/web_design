@@ -1,6 +1,11 @@
 body{
-  background-image: url("../images/background.jpg");
+  background: url("../images/background.jpg") no-repeat;
   color: white;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height:300px;
 }
 
 h1{
@@ -55,3 +60,10 @@ p{
   margin-right: 16px;
   font-size: 17px;
 }
+
+.top_text_box{
+    margin: 0px;
+    text-align: center ;
+    background-color: rgba(103,103,103,0.5);
+}
+
